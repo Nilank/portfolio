@@ -24,7 +24,7 @@ const Index = () => {
     const link = document.createElement("a");
 
     // Set the href to your resume file path
-    link.href = "/Nilank_Sharma_Resume.pdf";
+    link.href = `${import.meta.env.BASE_URL}Nilank_Sharma_Resume.pdf`;
 
     // Set the download attribute with the desired filename
     link.download = "Nilank_Sharma_Resume.pdf";
@@ -229,7 +229,7 @@ const Index = () => {
               }`}
             >
               <img
-                src="/developer.jpeg"
+                src={`${import.meta.env.BASE_URL}developer.jpeg`}
                 alt="Developer portrait"
                 className="w-full h-96 object-cover"
               />

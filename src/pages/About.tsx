@@ -109,7 +109,7 @@ const About = () => {
         <div className="md:col-span-2">
           <div className="h-full w-full overflow-hidden rounded-lg">
             <img
-              src="/developer.jpeg"
+              src={`${import.meta.env.BASE_URL}developer.jpeg`}
               alt="Developer portrait"
               className="w-full h-full object-cover rounded-lg"
             />
