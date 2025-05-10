@@ -34,7 +34,7 @@ export function NavBar() {
     >
       <div className="container max-w-6xl mx-auto px-4 flex items-center justify-between">
         <NavLink
-          to="/"
+          to="/portfolio"
           className="text-xl md:text-2xl font-heading font-bold text-primary"
         >
           Portfolio
