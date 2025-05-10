@@ -14,7 +14,7 @@ const NotFound = () => {
           The page you're looking for doesn't exist or has been moved.
         </p>
         <Button asChild size="lg">
-          <Link to="/">Back to Home</Link>
+          <Link to="/portfolio">Back to Home</Link>
         </Button>
       </div>
     </div>

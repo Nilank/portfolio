@@ -15,7 +15,7 @@ export function Footer() {
           </div>
           <div className="flex flex-wrap justify-center space-x-4 mb-4 md:mb-0">
             <NavLink
-              to="/"
+              to="/portfolio"
               className="text-sm text-foreground hover:text-primary transition-colors"
             >
               Home
