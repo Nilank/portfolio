@@ -159,7 +159,7 @@ const Contact = () => {
                   Want to know more about my experience?
                 </p>
                 <a
-                  href="/Nilank_Sharma_Resume.pdf"
+                  href={`${import.meta.env.BASE_URL}Nilank_Sharma_Resume.pdf`}
                   className="text-primary hover:underline"
                   download={true}
                 >
