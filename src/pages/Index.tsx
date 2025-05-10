@@ -229,7 +229,7 @@ const Index = () => {
               }`}
             >
               <img
-                src="/developer.jpg"
+                src="/developer.jpeg"
                 alt="Developer portrait"
                 className="w-full h-96 object-cover"
               />

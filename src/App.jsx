@@ -24,7 +24,7 @@ const App = () => (
         <NavBar />
         <PageTransition>
           <Routes>
-            <Route path="/portfolio" element={<Index />} />
+            <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
