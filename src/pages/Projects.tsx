@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router";
 import { Button } from "../components/ui/button";
 
 const Projects = () => {
@@ -137,7 +138,7 @@ const Projects = () => {
           I'm always open to discussing new projects and creative ideas.
         </p>
         <Button asChild size="lg">
-          <a href="/contact">Get in Touch</a>
+          <Link to="/contact">Get in Touch</Link>
         </Button>
       </div>
     </div>
