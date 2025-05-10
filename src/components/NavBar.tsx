@@ -5,7 +5,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import * as React from "react";
 
 const navItems = [
-  { name: "Home", path: "/" },
+  { name: "Home", path: "/portfolio" },
   { name: "About", path: "/about" },
   { name: "Projects", path: "/projects" },
   { name: "Contact", path: "/contact" },

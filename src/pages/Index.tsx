@@ -229,7 +229,7 @@ const Index = () => {
               }`}
             >
               <img
-                src="/developer.jpeg"
+                src={`${import.meta.env.BASE_URL}public/developer.jpeg`}
                 alt="Developer portrait"
                 className="w-full h-96 object-cover"
               />
