@@ -110,7 +110,7 @@ const About = () => {
           <div className="h-full w-full overflow-hidden rounded-lg">
             <img
               src="/developer.jpeg"
-              alt="Developer working on laptop"
+              alt="Developer portrait"
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
